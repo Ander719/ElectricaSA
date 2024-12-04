@@ -10,8 +10,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		
+		
 		ArrayList<Empleado> empleados = new ArrayList<>();
 
+		System.out.println("Cambio");
 		int opc = 0;
 		do {
 			mostrarOpcionesMenu();
